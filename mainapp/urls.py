@@ -21,4 +21,9 @@ from . import views
 urlpatterns = [
     
     path('', views.menu),
+    path('ambulance/', views.ambulance),
+    path('blood/', views.blood),
+    path('homeassistance/', views.homeassis),
+    path('medicines/', views.medicines),
+    path('others/', views.others),
 ]
